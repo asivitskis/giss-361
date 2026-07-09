@@ -1,24 +1,16 @@
 # Introduction to GIS Programming
 
-Welcome to the official course website for "_Introduction to GIS Programming_," offered at the University of Tennessee, Knoxville.
+Welcome to the official course website for "_Introduction to Geographic Information Systems_," offered at Western New Mexico University.
 
 ## Course Overview
 
-This course offers a comprehensive exploration of GIS programming, centered around the Python programming language. Throughout the semester, students will master the use of Python libraries and frameworks essential for processing, analyzing, and visualizing geospatial data.
+This course offers a comprehensive exploration of GIS systems and science.
 
 ## Textbook
 
 Wu, Q. (2025). _Introduction to GIS Programming: A Practical Python Guide to Open Source Geospatial Tools_. Independently published. ISBN 979-8286979455. <https://amazon.com/dp/B0FFW34LL3>
 
-### Print Edition
-
-- 🇺🇸 English Full-Color Print Edition (556 pages) is available on Amazon ([link](https://amazon.com/dp/B0FFW34LL3))
-
 ### PDF and EPUB Editions
-
-🇺🇸 [English](https://opengeopub.com/books/gispro) | 🇨🇳 [Chinese](https://opengeopub.com/books/gispro-zh) | 🇯🇵 [Japanese](https://opengeopub.com/books/gispro-ja) | 🇰🇷 [Korean](https://opengeopub.com/books/gispro-ko) | 🇲🇽 [Spanish](https://opengeopub.com/books/gispro-es) | 🇫🇷 [French](https://opengeopub.com/books/gispro-fr) | 🇵🇹 [Portuguese](https://opengeopub.com/books/gispro-pt) | 🇮🇩 [Indonesian](https://opengeopub.com/books/gispro-id) | 🇩🇪 [German](https://opengeopub.com/books/gispro-de) | 🇷🇺 [Russian](https://opengeopub.com/books/gispro-ru) | 🇮🇹 [Italian](https://opengeopub.com/books/gispro-it) | 🇨🇿 [Czech](https://opengeopub.com/books/gispro-cs)
-
-![book cover](https://assets.gishub.org/images/gispro-book-cover.png)
 
 ## What You'll Learn
 
@@ -29,7 +21,7 @@ Wu, Q. (2025). _Introduction to GIS Programming: A Practical Python Guide to Ope
 
 By the end of the course, you will have a robust understanding of Python programming, specifically tailored to geospatial analysis and visualization, empowering you to confidently tackle various geospatial challenges.
 
-![GIS Programming Course](https://assets.gishub.org/images/geog-312.png)
+![GIS Programming Course](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiOk6u_bARED4B6D2QLpkX8bC3mKSzqF1gGqFyJjBm2Q&s)
 
 ## Course Resources
 
@@ -37,12 +29,7 @@ All course materials, including lecture videos, are freely available on the cour
 
 ## Lecture Videos
 
-The lecture videos are available as a YouTube playlist: <https://bit.ly/intro-gis-programming>
+The lecture videos are available as a YouTube playlist: [link]
 
-## Enroll for Certification
-
-Please note that you can access the [course materials](https://geog-312.gishub.org) and [lecture videos](https://bit.ly/intro-gis-programming) on the course website without enrolling in the course. However, if you're interested in submitting lab assignments, receiving grades, and earning a certificate of completion, you can enroll in the course at any time by clicking the link below. There is no deadline for enrollment, and you can complete the course at your own pace.
-
-[Enroll Now](https://tiny.utk.edu/intro-gis-programming)
-
-[![Introduction to GIS Programming](https://assets.gishub.org/images/intro-gis-programming.webp)](https://tiny.utk.edu/intro-gis-programming)
+## Acknowledgements
+This website was originally adapted from the GEOG 312 course website by Qiusheng Wu (CC BY 4.0) and has been substantially modified for GISS 361: Introduction to Geographic Information Science at Western New Mexico University.
