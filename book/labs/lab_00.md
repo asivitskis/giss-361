@@ -1,7 +1,7 @@
-# Week 1 — Getting Started with GIS
+# Lab 0 - Getting Started with GIS
 ### GISS/GEOG 361/363 · Introduction to Geographic Information Science · Practice Lab
 
-**Notebook:** `Week1_Getting_Started_with_GIS.ipynb`
+**Notebook:** `lab_00.ipynb`
 **Status:** Practice lab — ungraded (see the Week 1 row of the Proposed Course Schedule)
 **Region:** Silver City, Grant County, and the Gila National Forest, southwestern New Mexico
 
