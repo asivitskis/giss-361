@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-# Miniconda
+# QGIS
 
 [Miniconda](https://docs.anaconda.com/miniconda) is a free minimal installer for conda. It is a small, bootstrap version of Anaconda that includes only conda, Python, the packages they depend on, and a small number of other useful packages, including pip, zlib, and a few others.
 

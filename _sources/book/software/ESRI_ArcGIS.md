@@ -1,4 +1,4 @@
-# Git
+# ESRI ArcGIS
 
 Git is a distributed version control system that is widely used for source code management. It is designed to handle everything from small to very large projects with speed and efficiency. Git is easy to learn and has a tiny footprint with lightning-fast performance.
 
