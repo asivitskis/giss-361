@@ -15,11 +15,11 @@ kernelspec:
 
 <div style="display: flex; align-items: center; justify-content: flex-start;">
 
-<img src="https://wetlands.io/file/images/Qiusheng_Wu.webp" alt="Description of Image" style="max-width: 200px; margin-right: 20px;">
+<img src="https://avatars.githubusercontent.com/u/25229847?v=4" alt="Description of Image" style="max-width: 200px; margin-right: 20px;">
 
 <div style="max-width: 800px;">
 
-Dr. Qiusheng Wu is an Associate Professor and the Director of Graduate Studies in the Department of Geography & Sustainability at the University of Tennessee, Knoxville. He also serves as an Amazon Visiting Academic. Dr. Wu specializes in geospatial data science and open-source software development, with a research focus on utilizing big geospatial data and cloud computing to study environmental changes, particularly in surface water and wetland inundation dynamics. He is the creator of several widely used open-source Python packages, including geemap, leafmap, and segment-geospatial, which are designed for advanced geospatial analysis and visualization. Explore his open-source contributions on GitHub at <https://github.com/opengeos>.
+Alex Sivitskis is an Assistant Professor of Geographical Information Systems and Science in the Department of Natural Resources at Western New Mexico University (WNMU) in Silver City, New Mexico. He teaches online GIS courses spanning lecture and lab instruction. Alex's interdisciplinary research bridges remote sensing and geoarchaeology with place-based education, drawing on frameworks like critical pedagogy of place and culturally sustaining pedagogy to build custom open-source geospatial tools for education and community-based research.
 
 </div>
 
