@@ -20,7 +20,7 @@ parts:
       - file: book/software/ESRI_ArcGIS
       - file: book/software/QGIS
       - file: book/software/vscode
-  - caption: GIS Foundamentals
+  - caption: GIS Fundamentals
     numbered: true
     maxdepth: 2
     chapters:
