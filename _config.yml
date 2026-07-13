@@ -5,7 +5,7 @@
 
 #######################################################################################
 # Book settings
-title: Introduction to Geographic Information Science # The title of the book. Will be placed in the left navbar.
+title: Introduction to Geographic Information Systems # The title of the book. Will be placed in the left navbar.
 author: Alex Sivitskis # The author of the book
 copyright: "2026" # Copyright year to be placed in the footer
 logo: logo.png # A path to the book logo
