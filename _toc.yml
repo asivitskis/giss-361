@@ -20,13 +20,18 @@ parts:
       - file: book/software/ESRI_ArcGIS
       - file: book/software/QGIS
       - file: book/software/vscode
-  - caption: GIS Fundamentals
+  - caption: GIS Foundations
     numbered: true
     maxdepth: 2
     chapters:
-      - file: book/python1/01_get_started
-      - file: book/python1/02_types_of_spatial_data
-      - file: book/python1/03_coordinate_systems
+      - file: book/foundations/01_get_started
+      - file: book/foundations/02_types_of_spatial_data
+      - file: book/foundations/03_coordinate_systems
+      - file: book/foundations/04_acquiring_geospatial_data
+      - file: book/foundations/05_vector_data_structures
+      - file: book/foundations/06_raster_data_basics
+      - file: book/fundamentals/07_attribute_data
+      
   - caption: GIS Analysis and Cartography
     numbered: true
     maxdepth: 2
