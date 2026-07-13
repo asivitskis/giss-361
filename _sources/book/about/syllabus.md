@@ -13,4 +13,4 @@ kernelspec:
 
 # Syllabus
 
-<iframe src="https://docs.google.com/document/d/19GvHqVHYc8cQx7RF__ZNjU4lNYGo_DnZWIiYXZDT810/pub?embedded=true" width="100%" height=800></iframe>
+<iframe src="https://docs.google.com/document/d/e/2PACX-1vQnnCQFouqcKUPTUGdA317hp6Eq6-5PKbCWrW8ZepvxT--h0fgEHZxhOEMX3NS6yswkHEJAezzciMn5/pub?embedded=true" width="100%" height=800></iframe>
