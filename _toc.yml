@@ -30,7 +30,7 @@ parts:
       - file: book/foundations/04_acquiring_geospatial_data
       - file: book/foundations/05_vector_data_structures
       - file: book/foundations/06_raster_data_basics
-      - file: book/fundamentals/07_attribute_data
+      - file: book/foundations/07_attribute_data
       
   - caption: GIS Analysis and Cartography
     numbered: true
