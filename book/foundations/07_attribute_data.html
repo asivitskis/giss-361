@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>6. Raster Data Basics &#8212; Introduction to Geographic Information Systems</title>
+    <title>7. Attribute Data &#8212; Introduction to Geographic Information Systems</title>
   
   
   
@@ -57,13 +57,13 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'book/foundations/06_raster_data_basics';</script>
-    <link rel="canonical" href="https://asivitskis.github.io/giss-361/book/foundations/06_raster_data_basics.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'book/foundations/07_attribute_data';</script>
+    <link rel="canonical" href="https://asivitskis.github.io/giss-361/book/foundations/07_attribute_data.html" />
     <link rel="icon" href="../../_static/fav.ico"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="7. Attribute Data" href="07_attribute_data.html" />
-    <link rel="prev" title="5. Vector Data Structures" href="05_vector_data_structures.html" />
+    <link rel="next" title="8. Leafmap" href="../geospatial/leafmap.html" />
+    <link rel="prev" title="6. Raster Data Basics" href="06_raster_data_basics.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -198,8 +198,8 @@
 <li class="toctree-l1"><a class="reference internal" href="03_coordinate_systems.html">3. Coordinate Systems</a></li>
 <li class="toctree-l1"><a class="reference internal" href="04_acquiring_geospatial_data.html">4. Acquiring Geospatial Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05_vector_data_structures.html">5. Vector Data Structures</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">6. Raster Data Basics</a></li>
-<li class="toctree-l1"><a class="reference internal" href="07_attribute_data.html">7. Attribute Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="06_raster_data_basics.html">6. Raster Data Basics</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">7. Attribute Data</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">GIS Analysis and Cartography</span></p>
 <ul class="nav bd-sidenav">
@@ -264,7 +264,7 @@
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/asivitskis/giss-361/main?urlpath=tree/book/foundations/06_raster_data_basics.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/asivitskis/giss-361/main?urlpath=tree/book/foundations/07_attribute_data.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -282,7 +282,7 @@
       
       
       
-      <li><a href="https://colab.research.google.com/github/asivitskis/giss-361/blob/main/book/foundations/06_raster_data_basics.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/asivitskis/giss-361/blob/main/book/foundations/07_attribute_data.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Colab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -348,7 +348,7 @@
       
       
       
-      <li><a href="https://github.com/asivitskis/giss-361/edit/main/book/foundations/06_raster_data_basics.ipynb" target="_blank"
+      <li><a href="https://github.com/asivitskis/giss-361/edit/main/book/foundations/07_attribute_data.ipynb" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -365,7 +365,7 @@
       
       
       
-      <li><a href="https://github.com/asivitskis/giss-361/issues/new?title=Issue%20on%20page%20%2Fbook/foundations/06_raster_data_basics.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/asivitskis/giss-361/issues/new?title=Issue%20on%20page%20%2Fbook/foundations/07_attribute_data.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -395,7 +395,7 @@
       
       
       
-      <li><a href="../../_sources/book/foundations/06_raster_data_basics.ipynb" target="_blank"
+      <li><a href="../../_sources/book/foundations/07_attribute_data.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -479,7 +479,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Raster Data Basics</h1>
+    <h1>Attribute Data</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -489,14 +489,14 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">6.1. Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">6.2. Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">6.3. Tuples</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">6.4. Lists</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">6.5. Sets</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionaries">6.6. Dictionaries</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercises">6.7. Exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">6.8. Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">7.1. Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">7.2. Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">7.3. Tuples</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">7.4. Lists</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">7.5. Sets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionaries">7.6. Dictionaries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercises">7.7. Exercises</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">7.8. Summary</a></li>
 </ul>
             </nav>
         </div>
@@ -508,15 +508,15 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="raster-data-basics">
-<h1><span class="section-number">6. </span>Raster Data Basics<a class="headerlink" href="#raster-data-basics" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="attribute-data">
+<h1><span class="section-number">7. </span>Attribute Data<a class="headerlink" href="#attribute-data" title="Link to this heading">#</a></h1>
 <p><a class="reference external" href="https://colab.research.google.com/github/giswqs/geog-312/blob/main/book/python/03_data_structures.ipynb"><img alt="Open In Colab" src="https://colab.research.google.com/assets/colab-badge.svg" /></a></p>
 <section id="overview">
-<h2><span class="section-number">6.1. </span>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.1. </span>Overview<a class="headerlink" href="#overview" title="Link to this heading">#</a></h2>
 <p>In this lecture, we will explore the fundamental Python data structures: Tuples, Lists, Sets, and Dictionaries. These data structures are essential tools in geospatial programming, enabling you to efficiently store, manage, and manipulate various types of data. By mastering these structures, you will be able to handle complex geospatial datasets with ease, paving the way for more advanced analysis and processing tasks.</p>
 </section>
 <section id="learning-objectives">
-<h2><span class="section-number">6.2. </span>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.2. </span>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
 <p>By the end of this lecture, you should be able to:</p>
 <ul class="simple">
 <li><p>Understand the characteristics and use cases of Python tuples, lists, sets, and dictionaries.</p></li>
@@ -527,7 +527,7 @@ document.write(`
 </ul>
 </section>
 <section id="tuples">
-<h2><span class="section-number">6.3. </span>Tuples<a class="headerlink" href="#tuples" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.3. </span>Tuples<a class="headerlink" href="#tuples" title="Link to this heading">#</a></h2>
 <p>Tuples are immutable sequences, meaning that once a tuple is created, its elements cannot be changed. Tuples are useful for storing fixed collections of items.</p>
 <p>For example, a tuple can be used to store the coordinates of a geographic point (latitude, longitude).</p>
 <div class="cell docutils container">
@@ -557,7 +557,7 @@ document.write(`
 </div>
 </section>
 <section id="lists">
-<h2><span class="section-number">6.4. </span>Lists<a class="headerlink" href="#lists" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.4. </span>Lists<a class="headerlink" href="#lists" title="Link to this heading">#</a></h2>
 <p>Lists are ordered, mutable sequences, meaning you can change, add, or remove elements after the list has been created. Lists are very flexible and can store multiple types of data, making them useful for various geospatial tasks.</p>
 <p>For example, you can store a list of coordinates representing a path or boundary.</p>
 <div class="cell docutils container">
@@ -601,7 +601,7 @@ document.write(`
 </div>
 </section>
 <section id="sets">
-<h2><span class="section-number">6.5. </span>Sets<a class="headerlink" href="#sets" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.5. </span>Sets<a class="headerlink" href="#sets" title="Link to this heading">#</a></h2>
 <p>Sets are unordered collections of unique elements. Sets are useful when you need to store a collection of items but want to eliminate duplicates.</p>
 <p>For example, you might want to store a set of unique geographic regions visited during a survey.</p>
 <div class="cell docutils container">
@@ -621,7 +621,7 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Updated regions: {&#39;Europe&#39;, &#39;North America&#39;, &#39;Africa&#39;, &#39;Asia&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Updated regions: {&#39;Asia&#39;, &#39;Europe&#39;, &#39;North America&#39;, &#39;Africa&#39;}
 </pre></div>
 </div>
 </div>
@@ -635,14 +635,14 @@ document.write(`
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Regions after attempting to add duplicate: {&#39;Europe&#39;, &#39;North America&#39;, &#39;Africa&#39;, &#39;Asia&#39;}
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Regions after attempting to add duplicate: {&#39;Asia&#39;, &#39;Europe&#39;, &#39;North America&#39;, &#39;Africa&#39;}
 </pre></div>
 </div>
 </div>
 </div>
 </section>
 <section id="dictionaries">
-<h2><span class="section-number">6.6. </span>Dictionaries<a class="headerlink" href="#dictionaries" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.6. </span>Dictionaries<a class="headerlink" href="#dictionaries" title="Link to this heading">#</a></h2>
 <p>Dictionaries are collections of key-value pairs, where each key is unique. Dictionaries are extremely useful for storing data that is associated with specific identifiers, such as attribute data for geographic features.</p>
 <p>For example, you can use a dictionary to store attributes of a geospatial feature, such as a city.</p>
 <div class="cell docutils container">
@@ -687,11 +687,11 @@ document.write(`
 </div>
 </section>
 <section id="exercises">
-<h2><span class="section-number">6.7. </span>Exercises<a class="headerlink" href="#exercises" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.7. </span>Exercises<a class="headerlink" href="#exercises" title="Link to this heading">#</a></h2>
 <p>Create a dictionary to store attributes of a geographic feature (e.g., a river or mountain). Include keys for the name, length, and location of the feature. Then, add an additional attribute (e.g., the source of the river or the height of the mountain) and print the dictionary.</p>
 </section>
 <section id="summary">
-<h2><span class="section-number">6.8. </span>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
+<h2><span class="section-number">7.8. </span>Summary<a class="headerlink" href="#summary" title="Link to this heading">#</a></h2>
 <p>Understanding and utilizing Python’s data structures such as tuples, lists, sets, and dictionaries are fundamental skills in geospatial programming. These structures provide the flexibility and functionality required to manage and manipulate spatial data effectively.</p>
 <p>Continue exploring these data structures by applying them to your geospatial projects and analyses.</p>
 </section>
@@ -728,20 +728,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="05_vector_data_structures.html"
+       href="06_raster_data_basics.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title"><span class="section-number">5. </span>Vector Data Structures</p>
+        <p class="prev-next-title"><span class="section-number">6. </span>Raster Data Basics</p>
       </div>
     </a>
     <a class="right-next"
-       href="07_attribute_data.html"
+       href="../geospatial/leafmap.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title"><span class="section-number">7. </span>Attribute Data</p>
+        <p class="prev-next-title"><span class="section-number">8. </span>Leafmap</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -761,14 +761,14 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">6.1. Overview</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">6.2. Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">6.3. Tuples</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">6.4. Lists</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">6.5. Sets</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionaries">6.6. Dictionaries</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercises">6.7. Exercises</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">6.8. Summary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">7.1. Overview</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">7.2. Learning Objectives</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">7.3. Tuples</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">7.4. Lists</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sets">7.5. Sets</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#dictionaries">7.6. Dictionaries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exercises">7.7. Exercises</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#summary">7.8. Summary</a></li>
 </ul>
   </nav></div>
 
