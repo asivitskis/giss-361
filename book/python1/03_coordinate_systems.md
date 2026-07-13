@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-# Data Structures
+# Coordinate Systems
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/geog-312/blob/main/book/python/03_data_structures.ipynb)
 

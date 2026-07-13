@@ -11,7 +11,7 @@ kernelspec:
   name: python3
 ---
 
-# Variables and Data Types
+# Types of Spatial Data
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/giswqs/geog-312/blob/main/book/python/02_variables.ipynb)
 
