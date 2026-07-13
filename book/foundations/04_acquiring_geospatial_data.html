@@ -193,8 +193,8 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">GIS Foundations</span></p>
 <ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="01_get_started.html">1. Get Started</a></li>
-<li class="toctree-l1"><a class="reference internal" href="02_types_of_spatial_data.html">2. Types of Spatial Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="01_get_started.html">1. What is GIS?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_types_of_spatial_data.html">2. Week 2 Lecture Notes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="03_coordinate_systems.html">3. Coordinate Systems</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">4. Acquiring Geospatial Data</a></li>
 <li class="toctree-l1"><a class="reference internal" href="05_vector_data_structures.html">5. Vector Data Structures</a></li>
@@ -491,8 +491,6 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">4.1. Overview</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">4.2. Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">4.3. Tuples</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">4.4. Lists</a></li>
 </ul>
             </nav>
         </div>
@@ -515,86 +513,8 @@ document.write(`
 <h2><span class="section-number">4.2. </span>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Link to this heading">#</a></h2>
 <p>By the end of this lecture, you should be able to:</p>
 <ul class="simple">
-<li><p>Understand the characteristics and use cases of Python tuples, lists, sets, and dictionaries.</p></li>
-<li><p>Apply these data structures to store and manipulate geospatial data, such as coordinates, paths, and attribute information.</p></li>
-<li><p>Differentiate between mutable and immutable data structures and choose the appropriate structure for different geospatial tasks.</p></li>
-<li><p>Perform common operations on these data structures, including indexing, slicing, adding/removing elements, and updating values.</p></li>
-<li><p>Utilize dictionaries to manage geospatial feature attributes and understand the importance of key-value pairs in geospatial data management.</p></li>
+<li></li>
 </ul>
-</section>
-<section id="tuples">
-<h2><span class="section-number">4.3. </span>Tuples<a class="headerlink" href="#tuples" title="Link to this heading">#</a></h2>
-<p>Tuples are immutable sequences, meaning that once a tuple is created, its elements cannot be changed. Tuples are useful for storing fixed collections of items.</p>
-<p>For example, a tuple can be used to store the coordinates of a geographic point (latitude, longitude).</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">point</span> <span class="o">=</span> <span class="p">(</span>
-    <span class="mf">35.6895</span><span class="p">,</span>
-    <span class="mf">139.6917</span><span class="p">,</span>
-<span class="p">)</span>  <span class="c1"># Tuple representing a geographic point (latitude, longitude)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>You can access elements in a tuple using indexing:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">latitude</span> <span class="o">=</span> <span class="n">point</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-<span class="n">longitude</span> <span class="o">=</span> <span class="n">point</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Latitude: </span><span class="si">{</span><span class="n">latitude</span><span class="si">}</span><span class="s2">, Longitude: </span><span class="si">{</span><span class="n">longitude</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Latitude: 35.6895, Longitude: 139.6917
-</pre></div>
-</div>
-</div>
-</div>
-</section>
-<section id="lists">
-<h2><span class="section-number">4.4. </span>Lists<a class="headerlink" href="#lists" title="Link to this heading">#</a></h2>
-<p>Lists are ordered, mutable sequences, meaning you can change, add, or remove elements after the list has been created. Lists are very flexible and can store multiple types of data, making them useful for various geospatial tasks.</p>
-<p>For example, you can store a list of coordinates representing a path or boundary.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">path</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="p">(</span><span class="mf">35.6895</span><span class="p">,</span> <span class="mf">139.6917</span><span class="p">),</span>
-    <span class="p">(</span><span class="mf">34.0522</span><span class="p">,</span> <span class="o">-</span><span class="mf">118.2437</span><span class="p">),</span>
-    <span class="p">(</span><span class="mf">51.5074</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.1278</span><span class="p">),</span>
-<span class="p">]</span>  <span class="c1"># List of tuples representing a path</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>You can add a new point to the path:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">((</span><span class="mf">48.8566</span><span class="p">,</span> <span class="mf">2.3522</span><span class="p">))</span>  <span class="c1"># Adding Paris to the path</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Updated path:&quot;</span><span class="p">,</span> <span class="n">path</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Updated path: [(35.6895, 139.6917), (34.0522, -118.2437), (51.5074, -0.1278), (48.8566, 2.3522)]
-</pre></div>
-</div>
-</div>
-</div>
-<p>Lists allow you to perform various operations such as slicing, which lets you access a subset of the list:</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sub_path</span> <span class="o">=</span> <span class="n">path</span><span class="p">[:</span><span class="mi">2</span><span class="p">]</span>  <span class="c1"># Slicing the first two points from the path</span>
-<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Sub-path:&quot;</span><span class="p">,</span> <span class="n">sub_path</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Sub-path: [(35.6895, 139.6917), (34.0522, -118.2437)]
-</pre></div>
-</div>
-</div>
-</div>
 </section>
 </section>
 
@@ -664,8 +584,6 @@ document.write(`
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#overview">4.1. Overview</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">4.2. Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#tuples">4.3. Tuples</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#lists">4.4. Lists</a></li>
 </ul>
   </nav></div>
 
