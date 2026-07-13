@@ -16,11 +16,10 @@ parts:
   - caption: Software
     chapters:
       - file: book/software/overview
-      - file: book/software/miniconda
+      - file: book/software/Geo_Libre
+      - file: book/software/ESRI_ArcGIS
+      - file: book/software/QGIS
       - file: book/software/vscode
-      - file: book/software/git
-      - file: book/software/colab
-      - file: book/software/jupyterlab
   - caption: GIS Foundamentals
     numbered: true
     maxdepth: 2
