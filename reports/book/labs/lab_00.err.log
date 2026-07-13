@@ -18,20 +18,20 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-# 🔧 OPTIONAL — add a labeled marker and save a shareable HTML map
-m.add_marker(location=silver_city, popup="Western New Mexico University — GISS 361/363")
+# OPTIONAL -- add a labeled marker and save a shareable HTML map
+m.add_marker(location=silver_city, popup="Western New Mexico University -- GISS 361/363")
 m.to_html("week1_first_map.html")
-print("Saved week1_first_map.html — open it in a browser to see your first exported map.")
+print("Saved week1_first_map.html -- open it in a browser to see your first exported map.")
 ------------------
 
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mTraitError[0m                                Traceback (most recent call last)
 Cell [0;32mIn[4], line 2[0m
-[1;32m      1[0m [38;5;66;03m# 🔧 OPTIONAL — add a labeled marker and save a shareable HTML map[39;00m
-[0;32m----> 2[0m [43mm[49m[38;5;241;43m.[39;49m[43madd_marker[49m[43m([49m[43mlocation[49m[38;5;241;43m=[39;49m[43msilver_city[49m[43m,[49m[43m [49m[43mpopup[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mWestern New Mexico University — GISS 361/363[39;49m[38;5;124;43m"[39;49m[43m)[49m
+[1;32m      1[0m [38;5;66;03m# OPTIONAL -- add a labeled marker and save a shareable HTML map[39;00m
+[0;32m----> 2[0m [43mm[49m[38;5;241;43m.[39;49m[43madd_marker[49m[43m([49m[43mlocation[49m[38;5;241;43m=[39;49m[43msilver_city[49m[43m,[49m[43m [49m[43mpopup[49m[38;5;241;43m=[39;49m[38;5;124;43m"[39;49m[38;5;124;43mWestern New Mexico University -- GISS 361/363[39;49m[38;5;124;43m"[39;49m[43m)[49m
 [1;32m      3[0m m[38;5;241m.[39mto_html([38;5;124m"[39m[38;5;124mweek1_first_map.html[39m[38;5;124m"[39m)
-[1;32m      4[0m [38;5;28mprint[39m([38;5;124m"[39m[38;5;124mSaved week1_first_map.html — open it in a browser to see your first exported map.[39m[38;5;124m"[39m)
+[1;32m      4[0m [38;5;28mprint[39m([38;5;124m"[39m[38;5;124mSaved week1_first_map.html -- open it in a browser to see your first exported map.[39m[38;5;124m"[39m)
 
 File [0;32m~/work/giss-361/giss-361/.venv/lib/python3.12/site-packages/leafmap/leafmap.py:320[0m, in [0;36mMap.add_marker[0;34m(self, location, **kwargs)[0m
 [1;32m    318[0m     location [38;5;241m=[39m [38;5;28mtuple[39m(location)
@@ -102,5 +102,5 @@ File [0;32m~/work/giss-361/giss-361/.venv/lib/python3.12/site-packages/traitlet
 [1;32m    830[0m     )
 [0;32m--> 831[0m [38;5;28;01mraise[39;00m TraitError(e)
 
-[0;31mTraitError[0m: The 'popup' trait of a Marker instance expected a Widget or None, not the str 'Western New Mexico University — GISS 361/363'.
+[0;31mTraitError[0m: The 'popup' trait of a Marker instance expected a Widget or None, not the str 'Western New Mexico University -- GISS 361/363'.
 
