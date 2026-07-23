@@ -6,9 +6,6 @@ Welcome to the official course website for "_Introduction to Geographic Informat
 
 This course offers a comprehensive exploration of GIS systems and science.
 
-## Textbook
-
-Wu, Q. (2025). _Introduction to GIS Programming: A Practical Python Guide to Open Source Geospatial Tools_. Independently published. ISBN 979-8286979455. <https://amazon.com/dp/B0FFW34LL3>
 
 ## What You'll Learn
 
@@ -27,6 +24,10 @@ All course materials, including lecture videos, are freely available on the cour
 ## Lecture Videos
 
 The lecture videos are available as a YouTube playlist: [link]
+
+## Textbook
+
+ - Duckham, M., Sun, Q., Worboys, M.F., (2024) GIS: A Computing Perspective, Third Edition, CRC Press, doi:10.1201/9780429168093 <https://github.com/mduckham/gisacp3e>
 
 ## Acknowledgements
 This website was originally adapted from the GEOG 312 course website by Qiusheng Wu (CC BY 4.0) and has been substantially modified for GISS 361: Introduction to Geographic Information Science at Western New Mexico University.
