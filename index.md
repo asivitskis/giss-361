@@ -17,7 +17,7 @@ By the end of this course, you'll have developed the knowledge and practical ski
 
 ## Our Study Area
 
-This course will ground many of our labs and examples in the landscapes of southwestern New Mexico — the Gila National Forest, the Chino Mine, and the mosaic of federal, state, and private land around Silver City. Explore the region below.
+This course will ground many of our labs and examples in the landscapes of southwestern New Mexico. The forests, watersheds, and settlements around Silver City, land that carries the histories of communities alongside today's patchwork of federal, state, and private stewardship. Throughout the semester, you'll return to a guiding question: what can a place teach us when we learn to read it geographically? Explore the map below and start noticing what you see — and what it makes you wonder.
 
 <iframe width="100%" height="500" frameborder="0" style="border:1px solid #ccc; border-radius:6px;" allow="local-network-access; geolocation" title="Southwestern NM Regional Map" src="https://wnmugis.maps.arcgis.com/apps/mapviewer/index.html?configurableview=true&webmap=05d72cefd31e459d8d6ec8b31e435c88&theme=light&heading=true&legend=true&scroll=false&center=-108.25275033008064,32.794118708373404&scale=144447.638572" ></iframe>
 
