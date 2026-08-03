@@ -15,7 +15,15 @@ This course offers a comprehensive exploration of GIS systems and science.
 
 By the end of this course, you'll have developed the knowledge and practical skills needed to use GIS with confidence—from creating accurate maps and performing spatial analyses to communicating geographic insights through desktop, web, and cloud-based GIS. More importantly, you'll learn to ask meaningful geographic questions, critically evaluate spatial information, and use geospatial technologies to investigate real challenges in places that matter.
 
-![GIS Programming Course](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiOk6u_bARED4B6D2QLpkX8bC3mKSzqF1gGqFyJjBm2Q&s)
+## Our Study Area
+
+This course will ground many of our labs and examples in the landscapes of southwestern New Mexico — the Gila National Forest, the Chino Mine, and the mosaic of federal, state, and private land around Silver City. Explore the region below.
+
+<iframe src="https://wnmugis.maps.arcgis.com/apps/mapviewer/index.html?webmap=05d72cefd31e459d8d6ec8b31e435c88&center=-108.2528,32.7941&scale=144448&theme=light&legend=true&basemaps=false"
+        width="100%" height="500" frameborder="0" style="border:1px solid #ccc; border-radius:6px;">
+</iframe>
+
+*Interactive regional map — pan and zoom to explore, or [open in full screen](https://arcg.is/1vHPWj1).*
 
 ## Course Resources
 
